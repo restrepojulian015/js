@@ -57,8 +57,8 @@
 //     console.log(i++);
 // }
 
-let x = 0;
+// let x = 0;
 
-do{
- x = parseInt(prompt("digite número"));
-}while(x == 10)
+// do{
+//  x = parseInt(prompt("digite número"));
+// }while(x == 10)

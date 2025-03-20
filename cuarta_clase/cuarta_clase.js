@@ -1,27 +1,27 @@
-function mensaje (nombre){
-    console.log(`hola ${nombre}`)
-}
+// function mensaje (nombre){
+//     console.log(`hola ${nombre}`)
+// }
 
-mensaje("Pepe")
+// mensaje("Pepe")
 
-//función de expresión. compueta por una variable y una funciÓN anonima.
+// //función de expresión. compueta por una variable y una funciÓN anonima.
 
-const mensaje1 = function (nombre){
-    console.log(`hola ${nombre}`)
-}
+// const mensaje1 = function (nombre){
+//     console.log(`hola ${nombre}`)
+// }
 
-mensaje1("Juan")
+// mensaje1("Juan")
 
-const arr = [
-    [["Pepe"],["Aguilar"]],
-    [["Camila"],["Cabello"]],
-    [["Juan"],["Mendez"]],[["Pedro"],["Coral"]]
-]
+// const arr = [
+//     [["Pepe"],["Aguilar"]],
+//     [["Camila"],["Cabello"]],
+//     [["Juan"],["Mendez"]],[["Pedro"],["Coral"]]
+// ]
 
-const result = arr.map(concatenar);
+// const result = arr.map(concatenar);
 
-function concatenar (nombre){
-    return nombre[0]+ ' '+ nombre[1];
-}
+// function concatenar (nombre){
+//     return nombre[0]+ ' '+ nombre[1];
+// };
 
-console.log(result)
+// console.log(result)
